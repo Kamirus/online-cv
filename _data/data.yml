@@ -35,7 +35,10 @@ sidebar:
       - item: Sport Climbing
         link:
 
-      - item: FP, Programming language theory
+      - item: Functional Programming
+        link:
+
+      - item: Programming language theory
         link:
 
       - item: Singing
@@ -146,11 +149,6 @@ publications:
 skills:
     title: Skills &amp; Proficiency
 
-    Sth before
-
-    - dsa
-    - fea
-
     toolset:
       - name: PureScript
         level: 70%
@@ -166,12 +164,6 @@ skills:
 
       - name: JavaScript
         level: 50%
-
-
-    Sth after
-
-    - dsa
-    - fea
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
