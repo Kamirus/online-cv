@@ -81,7 +81,7 @@ experiences:
 
     - role: PureScript Developer
       time: 2018.06 - Present
-      company: (part-time) [Lambda Terms](https://lambdaterms.com), remote
+      company: (part-time) lambdaterms.com, remote
       details: |
         Implementation of [FFI bindings](https://github.com/Kamirus/purescript-annoy)
         for Spotify's library [annoy](https://github.com/spotify/annoy).
@@ -99,7 +99,7 @@ projects:
       - title: Selda
         link: "https://github.com/Kamirus/purescript-selda"
         tagline: |
-          *"tech:" PureScript, SQL* -
+          "tech:" PureScript, SQL -
           SQL library for PureScript which allows a user to write type-safe queries
           that are guaranteed to be correct be the type system. 
           It supports arbitrarily nested with joins, aggregates, etc. 
@@ -107,10 +107,10 @@ projects:
           very handy for the user. "Implementation details:" monadic interface, 
           row-generic programming, existential types and types equality for GADT substitution.
 
-      - title: Ray tracer ()
+      - title: Ray tracer
         link: "https://github.com/Kamirus/ray-tracer"
         tagline: |
-          *"tech:" OCaml* - 
+          "tech:" OCaml - 
           Rendering 3D scene with spheres and planes. Simple backward tracing assisted by
           stochastic methods allows to produce interesting effects from simple reflection to realistic
           looking depth of field and soft shadows. Modularized code consisting of OCaml modules
@@ -119,7 +119,7 @@ projects:
       - title: DozenHeroes
         link: 
         tagline: |
-          *"tech:" Node.js, Socket.IO, Preact* - 
+          "tech:" Node.js, Socket.IO, Preact - 
           Turn-based card game. Players are able to see list of online users and
           can create/join rooms in order to start game.
           Synchronization and client-server communication is implemented using WebSockets.
