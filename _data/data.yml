@@ -75,8 +75,8 @@ experiences:
       company: Software Engineer at Nokia, Wrocław.
       details: |
         Work in a self-organized agile team on the implementation of new features
-        and improvements to current codebase. My tasks mainly concerned design
-        and implementation of REST APIs and backend services.
+        and improvements to current codebase. My tasks mainly concerned with 
+        the design and implementation of REST APIs and backend services.
         "Used technologies: SQLAlchemy, Redis, Mypy, cherrypy."
 
     - role: PureScript Developer
@@ -89,7 +89,7 @@ experiences:
         session management, and integration with tpay in PureScript.
         I created a [SQL library](https://github.com/Kamirus/purescript-selda)
         for PureScript which allows a user to write type-safe queries guaranteed
-        to be correct be the type system. 
+        to be correct by the type system. 
 
 projects:
     title: Projects
@@ -101,7 +101,7 @@ projects:
         tagline: |
           "tech:" PureScript, SQL -
           SQL library for PureScript which allows a user to write type-safe queries
-          that are guaranteed to be correct be the type system. 
+          that are guaranteed to be correct by the type system. 
           It supports arbitrarily nested with joins, aggregates, etc. 
           Rows from the database are represented using PureScript's records, which is 
           very handy for the user. "Implementation details:" monadic interface, 
@@ -111,18 +111,19 @@ projects:
         link: "https://github.com/Kamirus/ray-tracer"
         tagline: |
           "tech:" OCaml - 
-          Rendering 3D scene with spheres and planes. Simple backward tracing assisted by
-          stochastic methods allows to produce interesting effects from simple reflection to realistic
-          looking depth of field and soft shadows. Modularized code consisting of OCaml modules
-          that depend mostly on signatures of others.
+          Rendering 3D scene with spheres and planes.
+          Simple backward tracing assisted by stochastic methods allows 
+          producing interesting effects from simple reflection to a realistic 
+          looking depth of field and soft shadows. Modularized code consisting 
+          of OCaml modules depend mostly on signatures of others.
 
       - title: DozenHeroes
         link: 
         tagline: |
           "tech:" Node.js, Socket.IO, Preact - 
-          Turn-based card game. Players are able to see list of online users and
-          can create/join rooms in order to start game.
-          Synchronization and client-server communication is implemented using WebSockets.
+          Turn-based card game. Players are able to see a list of online users 
+          and can create/join rooms in order to start a game. Synchronization 
+          and client-server communication are implemented using WebSockets.
 
 publications:
     title: (some) University courses 
