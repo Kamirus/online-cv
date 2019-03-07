@@ -29,7 +29,7 @@ sidebar:
         level: Native
 
       - idiom: English
-        level: Professional
+        level: Proficient
 
     interests:
       - item: Sport Climbing
@@ -78,12 +78,10 @@ experiences:
 
     - role: PureScript Developer
       time: 2018.06 - Present
-      company: (part-time) [Lambda Terms](https://lambdaterms.com/), remote
+      company: (part-time) [Lambda Terms](https://lambdaterms.com), remote
       details: |
         Implementation of [FFI bindings](https://github.com/Kamirus/purescript-annoy)
         for Spotify's library [annoy](https://github.com/spotify/annoy).
-        # I used [react's bindings](https://github.com/lumihq/purescript-react-basic)
-        # to implement backend logic for our web app, including rest apis for db access.
         I implemented checkout flow including database design, cookies and
         session management, and integration with tpay in PureScript.
         I created a [SQL library](https://github.com/Kamirus/purescript-selda)
@@ -95,9 +93,10 @@ projects:
     intro: >
 
     assignments:
-      - title: Selda ("tech:" PureScript, SQL)
+      - title: Selda
         link: "https://github.com/Kamirus/purescript-selda"
         tagline: |
+          *"tech:" PureScript, SQL* -
           SQL library for PureScript which allows a user to write type-safe queries
           that are guaranteed to be correct be the type system. 
           It supports arbitrarily nested with joins, aggregates, etc. 
@@ -105,17 +104,19 @@ projects:
           very handy for the user. "Implementation details:" monadic interface, 
           row-generic programming, existential types and types equality for GADT substitution.
 
-      - title: Ray tracer ("tech:" OCaml)
+      - title: Ray tracer ()
         link: "https://github.com/Kamirus/ray-tracer"
         tagline: |
+          *"tech:" OCaml* - 
           Rendering 3D scene with spheres and planes. Simple backward tracing assisted by
           stochastic methods allows to produce interesting effects from simple reflection to realistic
           looking depth of field and soft shadows. Modularized code consisting of OCaml modules
           that depend mostly on signatures of others.
 
-      - title: DozenHeroes ("tech:" Node.js, Socket.IO, Preact)
+      - title: DozenHeroes
         link: 
         tagline: |
+          *"tech:" Node.js, Socket.IO, Preact* - 
           Turn-based card game. Players are able to see list of online users and
           can create/join rooms in order to start game.
           Synchronization and client-server communication is implemented using WebSockets.
@@ -145,6 +146,11 @@ publications:
 skills:
     title: Skills &amp; Proficiency
 
+    Sth before
+
+    - dsa
+    - fea
+
     toolset:
       - name: PureScript
         level: 70%
@@ -160,6 +166,12 @@ skills:
 
       - name: JavaScript
         level: 50%
+
+
+    Sth after
+
+    - dsa
+    - fea
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
