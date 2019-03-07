@@ -7,194 +7,159 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Kamil Listopad
+    tagline: # Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: listopadkamil@gmail.com
+    phone: 692 677 415
+    website: #do not add http://
+    linkedin: listopadkamil
+    github: Kamirus
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Polish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Sport Climbing
         link:
 
-      - item: Snowboarding
+      - item: FP, Programming language theory
         link:
 
-      - item: Cooking
+      - item: Singing
         link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      - item: cRPGs
+        link:
 
-      Second paragraph if required.
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+
+#       Second paragraph if required.
 
 education:
     - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      university: University of Wrocław
+      time: 2019 - (2021)
+      details: 
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: BSc in Computer Science
+      university: University of Wrocław
+      time: 2015 - 2019
+      details: 
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Python Working Student, 
+      time: 2017.07 - 2018.02
+      company: Software Engineer at Nokia, Wrocław.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Work in a self-organized agile team on the implementation of new features
+        and improvements to current codebase. My tasks mainly concerned design
+        and implementation of REST APIs and backend services.
+        "Used technologies: SQLAlchemy, Redis, Mypy, cherrypy."
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: PureScript Developer
+      time: 2018.06 - Present
+      company: (part-time) [Lambda Terms](https://lambdaterms.com/), remote
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Implementation of [FFI bindings](https://github.com/Kamirus/purescript-annoy)
+        for Spotify's library [annoy](https://github.com/spotify/annoy).
+        # I used [react's bindings](https://github.com/lumihq/purescript-react-basic)
+        # to implement backend logic for our web app, including rest apis for db access.
+        I implemented checkout flow including database design, cookies and
+        session management, and integration with tpay in PureScript.
+        I created a [SQL library](https://github.com/Kamirus/purescript-selda)
+        for PureScript which allows a user to write type-safe queries guaranteed
+        to be correct be the type system. 
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Selda ("tech:" PureScript, SQL)
+        link: "https://github.com/Kamirus/purescript-selda"
+        tagline: |
+          SQL library for PureScript which allows a user to write type-safe queries
+          that are guaranteed to be correct be the type system. 
+          It supports arbitrarily nested with joins, aggregates, etc. 
+          Rows from the database are represented using PureScript's records, which is 
+          very handy for the user. "Implementation details:" monadic interface, 
+          row-generic programming, existential types and types equality for GADT substitution.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Ray tracer ("tech:" OCaml)
+        link: "https://github.com/Kamirus/ray-tracer"
+        tagline: |
+          Rendering 3D scene with spheres and planes. Simple backward tracing assisted by
+          stochastic methods allows to produce interesting effects from simple reflection to realistic
+          looking depth of field and soft shadows. Modularized code consisting of OCaml modules
+          that depend mostly on signatures of others.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: DozenHeroes ("tech:" Node.js, Socket.IO, Preact)
+        link: 
+        tagline: |
+          Turn-based card game. Players are able to see list of online users and
+          can create/join rooms in order to start game.
+          Synchronization and client-server communication is implemented using WebSockets.
 
 publications:
-    title: Publications
+    title: (some) University courses 
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      - Compiler Construction
+      - Semantics of Programming Languages (and Type Systems)
+      - Functional Programming (mostly OCaml)
+      - Algorithms and Data structures
+      - Programming (Prolog, Haskell)
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    # papers:
+    #   - title: The Art of Computer Programming
+    #     authors: Donald E. Knuth
+    #     conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    #   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    #     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    #   - title: A syntax directed compiler for Algol 60
+    #     authors: Edgar T. Irons
+    #     conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: PureScript
+        level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Haskell
         level: 60%
+
+      - name: Python
+        level: 80%
+
+      - name: OCaml
+        level: 60%
+
+      - name: JavaScript
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
