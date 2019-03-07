@@ -102,7 +102,7 @@ projects:
           tech: PureScript, SQL -
           SQL library for PureScript which allows a user to write type-safe queries
           that are guaranteed to be correct by the type system. 
-          It supports arbitrarily nested with joins, aggregates, etc. 
+          It supports arbitrarily nested queries with joins, aggregates, etc. 
           Rows from the database are represented using PureScript's records, which is 
           very handy for the user. "Implementation details:" monadic interface, 
           row-generic programming, existential types and types equality for GADT substitution.
