@@ -99,7 +99,7 @@ projects:
       - title: Selda
         link: "https://github.com/Kamirus/purescript-selda"
         tagline: |
-          "tech:" PureScript, SQL -
+          tech: PureScript, SQL -
           SQL library for PureScript which allows a user to write type-safe queries
           that are guaranteed to be correct by the type system. 
           It supports arbitrarily nested with joins, aggregates, etc. 
@@ -110,7 +110,7 @@ projects:
       - title: Ray tracer
         link: "https://github.com/Kamirus/ray-tracer"
         tagline: |
-          "tech:" OCaml - 
+          tech: OCaml - 
           Rendering 3D scene with spheres and planes.
           Simple backward tracing assisted by stochastic methods allows 
           producing interesting effects from simple reflection to a realistic 
@@ -120,7 +120,7 @@ projects:
       - title: DozenHeroes
         link: 
         tagline: |
-          "tech:" Node.js, Socket.IO, Preact - 
+          tech: Node.js, Socket.IO, Preact - 
           Turn-based card game. Players are able to see a list of online users 
           and can create/join rooms in order to start a game. Synchronization 
           and client-server communication are implemented using WebSockets.
