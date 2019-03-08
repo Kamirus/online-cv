@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Kamil Listopad
@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: listopadkamil@gmail.com
-    phone: 692 677 415
+    phone: +48 692 677 415
     website: #do not add http://
     linkedin: listopadkamil
     github: Kamirus
@@ -32,13 +32,13 @@ sidebar:
         level: Proficient
 
     interests:
-      - item: Sport Climbing
-        link:
-
       - item: Functional Programming
         link:
 
       - item: Programming language theory
+        link:
+
+      - item: Sport Climbing
         link:
 
       - item: Singing
@@ -47,93 +47,87 @@ sidebar:
       - item: cRPGs
         link:
 
-# career-profile:
-#     title: Career Profile
-#     summary: |
-#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
-#       adipiscing elit. You can [download this free resume/CV template here]().
-#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-#       Donec quam felis, ultricies nec, pellentesque eu.
+career-profile:
+    title: Career Profile
+    summary: |
+      I am passionate about functional programming and programming language theory.
+      I love working with statically typed, purely functional programming languages such as PureScript and Haskell, where I can enforce certain properties in a type system.
 
-#       Second paragraph if required.
+      I am always in my element when working on algorithms or CS theory, but I also enjoyed working on REST APIs in Python, so I am very flexible and always passionate about learning new technology.
 
 education:
     - degree: MSc in Computer Science
       university: University of Wrocław
       time: 2019 - (2021)
-      details: 
+      details:
 
     - degree: BSc in Computer Science
       university: University of Wrocław
       time: 2015 - 2019
-      details: 
+      details: |
+        **Thesis**: *Type-safe database queries via row-generic programming: a monadic EDSL for PureScript*
 
 experiences:
-    - role: Python Working Student, 
-      time: 2017.07 - 2018.02
-      company: Software Engineer at Nokia, Wrocław.
-      details: |
-        Work in a self-organized agile team on the implementation of new features
-        and improvements to current codebase. My tasks mainly concerned with 
-        the design and implementation of REST APIs and backend services.
-        "Used technologies: SQLAlchemy, Redis, Mypy, cherrypy."
 
     - role: PureScript Developer
       time: 2018.06 - Present
       company: (part-time) lambdaterms.com, remote
       details: |
-        Implementation of [FFI bindings](https://github.com/Kamirus/purescript-annoy)
-        for Spotify's library [annoy](https://github.com/spotify/annoy).
+        Worked on a couple of projects using mostly **PureScript**.
+
+        I created a [**SQL** library](https://github.com/Kamirus/purescript-selda) for PureScript which allows a user to write type-safe queries guaranteed to be correct by the type system.
+
         I implemented checkout flow including database design, cookies and
-        session management, and integration with tpay in PureScript.
-        I created a [SQL library](https://github.com/Kamirus/purescript-selda)
-        for PureScript which allows a user to write type-safe queries guaranteed
-        to be correct by the type system. 
+        session management, and integration with tpay all in PureScript.
+
+        I also implemented [FFI bindings](https://github.com/Kamirus/purescript-annoy) for Spotify's library [annoy](https://github.com/spotify/annoy).
+
+    - role: Python Working Student,
+      time: 2017.07 - 2018.02
+      company: Software Engineer at Nokia, Wrocław.
+      details: |
+        Worked in a self-organized agile team on the implementation of new features and improvements to current systems. I was responible for designing and implementing REST APIs and backend services. Most of the code written in **Python**.
+        Used technologies: **SQLAlchemy**, **Redis**, **Mypy**, **cherrypy**.
 
 projects:
     title: Projects
-    intro: >
-
+    intro:
     assignments:
       - title: Selda
         link: "https://github.com/Kamirus/purescript-selda"
         tagline: |
-          tech: PureScript, SQL -
-          SQL library for PureScript which allows a user to write type-safe queries
-          that are guaranteed to be correct by the type system. 
-          It supports arbitrarily nested queries with joins, aggregates, etc. 
-          Rows from the database are represented using PureScript's records, which is 
-          very handy for the user. "Implementation details:" monadic interface, 
-          row-generic programming, existential types and types equality for GADT substitution.
+          *tech: PureScript, SQL*
 
+          **SQL library** for **PureScript** which allows a user to write type-safe queries that are guaranteed to be correct by the type system. It supports arbitrarily nested queries with joins, aggregates, etc. Rows from the database are represented using PureScript's records, which is very handy for the user.
+
+          *Implementation details:* monadic interface,
+          row-generic programming, existential types and types equality for GADT substitution.
       - title: Ray tracer
         link: "https://github.com/Kamirus/ray-tracer"
         tagline: |
-          tech: OCaml - 
-          Rendering 3D scene with spheres and planes.
-          Simple backward tracing assisted by stochastic methods allows 
-          producing interesting effects from simple reflection to a realistic 
-          looking depth of field and soft shadows. Modularized code consisting 
-          of OCaml modules depend mostly on signatures of others.
+          *tech: OCaml*
+
+          I wrote a program for rendering 3D scenes with geometric figures, mirrors and special light effects, which allow producing images with realistic shadows and depth of field.
+
+          Implementation details: Backward tracing assisted by stochastic methods allows producing interesting effects from simple reflection to a realistic looking depth of field and soft shadows. Modularized code consisting of OCaml modules depend mostly on signatures of others.
 
       - title: DozenHeroes
-        link: 
+        link:
         tagline: |
-          tech: Node.js, Socket.IO, Preact - 
-          Turn-based card game. Players are able to see a list of online users 
-          and can create/join rooms in order to start a game. Synchronization 
-          and client-server communication are implemented using WebSockets.
+          *tech: Node.js, Socket.IO, Preact*
+
+          Turn-based card game. Players are able to see a list of online users and can create/join rooms in order to start a game.
+
+          Implementation details:  Synchronization and client-server communication are implemented using WebSockets.
 
 publications:
-    title: (some) University courses 
+    title: My favourite University courses
     intro: |
-      - Compiler Construction
       - Semantics of Programming Languages (and Type Systems)
+      - Compiler Construction
       - Functional Programming (mostly OCaml)
       - Algorithms and Data structures
       - Programming (Prolog, Haskell)
-
     # papers:
     #   - title: The Art of Computer Programming
     #     authors: Donald E. Knuth
@@ -152,10 +146,10 @@ skills:
 
     toolset:
       - name: PureScript
-        level: 70%
+        level: 80%
 
       - name: Haskell
-        level: 60%
+        level: 70%
 
       - name: Python
         level: 80%
