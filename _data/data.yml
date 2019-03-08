@@ -65,7 +65,7 @@ education:
       university: University of Wrocław
       time: 2015 - 2019
       details: |
-        **Thesis**: *Type-safe database queries via row-generic programming: a monadic EDSL for PureScript*
+        [**Thesis**: *Type-safe database queries via row-generic programming: a monadic EDSL for PureScript*](https://github.com/Kamirus/purescript-selda/blob/master/selda.pdf)
 
 experiences:
 
