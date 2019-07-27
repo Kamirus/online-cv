@@ -53,7 +53,7 @@ career-profile:
       I am passionate about functional programming and programming language theory.
       I love working with statically typed, purely functional programming languages such as PureScript and Haskell, where I can enforce certain properties in a type system.
 
-      I am always in my element when working on algorithms or CS theory, but I also enjoyed working on REST APIs in Python, so I am very flexible and always passionate about learning new technology.
+      I am always in my element when working on algorithms or CS theory, but I also enjoyed working on REST APIs in Python, so I am very flexible and always passionate about learning new technologies.
 
 education:
     - degree: MSc in Computer Science
@@ -75,7 +75,7 @@ experiences:
       details: |
         Worked on a couple of projects using mostly **PureScript**.
 
-        I created a [**SQL** library](https://github.com/Kamirus/purescript-selda) for PureScript which allows a user to write type-safe queries guaranteed to be correct by the type system.
+        I created a [**SQL** library](https://github.com/Kamirus/purescript-selda) for PureScript which allows users to write type-safe queries guaranteed to be correct by the type system.
 
         I implemented checkout flow including database design, cookies and
         session management, and integration with tpay all in PureScript.
@@ -109,7 +109,7 @@ projects:
 
           I wrote a program for rendering 3D scenes with geometric figures, mirrors and special light effects, which allow producing images with realistic shadows and depth of field.
 
-          Implementation details: Backward tracing assisted by stochastic methods allows producing interesting effects from simple reflection to a realistic looking depth of field and soft shadows. Modularized code consisting of OCaml modules depend mostly on signatures of others.
+          Implementation details: Backward tracing assisted by stochastic methods allows to produce interesting effects from simple reflection to a realistic looking depth of field and soft shadows. Modularized code consisting of OCaml modules depend mostly on signatures of others.
 
       - title: DozenHeroes
         link:
